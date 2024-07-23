@@ -81,7 +81,7 @@ If you don't use Homebridge UI or HOOBS, keep reading:
 | `name`        | Name of the accessory in HomeKit  |         |  String  |
 | `mac`        | Mac Address of the device e.g. `cc:29:f5:3b:a2:f2` (can use `ip` or `hostname` instead) |         |  String  |
 | `ip`        | ip Address of the device (can use `mac` or `hostname` instead) |         |  String  |
-| `hostname`        | Hostname of the device (can use `mac` or `ip` instead) |         |  String  |
+| `hostname`        | Hostname of the device (can use `mac` or `ip` instead). **UPD:** If there are no hostnames defined for devices, hostname resolving will be turned off, which dramatically increases the speed |         |  String  |
 | `threshold`  | device disconnect threshold (overrides platform threshold)   |  `15` |  Integer |
 
 ## Issues & Debug
