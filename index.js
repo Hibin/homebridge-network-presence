@@ -1,6 +1,6 @@
 const Network = require('./lib/network')
-const PLUGIN_NAME = 'homebridge-network-presence-net-optimized'
-const PLATFORM_NAME = 'NetworkPresenceNetOptimized'
+const PLUGIN_NAME = 'homebridge-network-presence'
+const PLATFORM_NAME = 'NetworkPresence'
 module.exports = (api) => {
 	api.registerPlatform(PLUGIN_NAME, PLATFORM_NAME, NetworkPresence)
 }
